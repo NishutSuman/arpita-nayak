@@ -10,14 +10,14 @@ const Home = () => (
 	<div
 		style={{ backgroundColor: "#202235" }}
 		name="home"
-		className="h-screen w-ful home "
+		className="h-full w-full home "
 	>
-		<div className="max-w-screen-lg mx-auto flex flex-col gap-28 items-center justify-between h-full md:flex-row pt-28">
-			<div className="big-screen w-7/12 space-x-2 shadow-orange-600 mt-[-4%]">
+		<div className="max-w-screen-lg mx-auto flex flex-col gap-28 items-center justify-between md:flex-row pt-20">
+			<div className="big-screen w-[40%] space-x-2 shadow-orange-600 mt-[-4%]">
 				<img
 					src={"https://i.postimg.cc/yNx558WS/10.png"}
 					alt="profile"
-					className="mt-20 w-[100%] h-[100%]"
+					className="mt-20 h-full w-full"
 				/>
 			</div>
 			<div className="small-screen hidden mt-8">
@@ -29,7 +29,7 @@ const Home = () => (
 					/>
 				</div>
 			</div>
-			<div className="flex flex-col justify-center h-[90%] items-center">
+			<div className="flex flex-col justify-center w-[90%] items-center">
 				<div className="">
 					<h2 className="sm:text-5xl font-bold font-f2 text-white">
 						You Are Invited To{" "}
@@ -38,14 +38,17 @@ const Home = () => (
 						</span>
 						Arpita Nayak
 					</h2>
-					<h3 className="mt-5 text-2xl text-amber-200 font-f1">
+					<h3 className="mt-1 text-3xl text-amber-200 font-f3">
+						Dicsiple of Smt. Vimmi B. Eswar and Ms. Chithra Rajan
+					</h3>
+					<h3 className="mt-5 text-2xl text-white font-f1">
 						23rd December, 2023 | Saturday<br></br>
 						at Rail Auditorium, Chandrasekharpur, Bhubaneswar
 					</h3>
 				</div>
 				<div className="flex gap-4">
 					<a
-						href={"http://stackoverflow.com"}
+						href={"tel:6370274692"}
 						className="flex justify-between items-center mt-10 text-white"
 						download={true}
 						target="_blank"
@@ -54,7 +57,7 @@ const Home = () => (
 						<IoMdCall className="h-8 w-8 hover:text-yellow-200"/>
 					</a>
 					<a
-						href={"http://stackoverflow.com"}
+						href={"https://wa.me/+18622520390"}
 						className="flex justify-between items-center mt-10 text-white"
 						download={true}
 						target="_blank"
@@ -63,7 +66,7 @@ const Home = () => (
 						<IoLogoWhatsapp className="h-8 w-8 hover:text-yellow-200" />
 					</a>
 					<a
-						href={"http://stackoverflow.com"}
+						href={"mailto:arpitaarangetram@gmail.com"}
 						className="flex justify-between items-center mt-10 text-white"
 						download={true}
 						target="_blank"
@@ -74,7 +77,7 @@ const Home = () => (
 				</div>
 				<div className="flex gap-4">
 					<a
-						href={"http://stackoverflow.com"}
+						href={"https://event.fydo.in/arpitas-bharatnatyam-arangetram/"}
 						className="flex justify-between  items-center mt-10 text-white "
 						download={true}
 						target="_blank"
@@ -88,7 +91,7 @@ const Home = () => (
 					</a>
 					<a
 						href={"http://stackoverflow.com"}
-						className="flex justify-between  items-center mt-10 text-white"
+						className="flex justify-between  items-center mt-10 text-white pointer-events-none"
 						download={true}
 						target="_blank"
 						rel="noreferrer"

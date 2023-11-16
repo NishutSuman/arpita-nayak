@@ -21,8 +21,8 @@ function Invitation({
 				—•— INVITATION —•—
 			</h2>
 
-			<div className="flex gap-10 mt-10 justify-center items-center">
-				<div className="flex-co justify-center w-[50%]">
+			<div className="flex gap-10 mt-10 justify-center items-center ">
+				<div className="flex-co justify-center w-[50%] ">
 					<VideoPlayer />
                     <h4 className="text-4xl font-f3 mt-6">Your Presence is our present. Please, no gifts! If you feel so inclined, please donate to the following charity. We will be more happy.</h4>
                     
@@ -30,7 +30,7 @@ function Invitation({
 
 				<div className="w-[60%] font-f1">
 					<h4 className="text-3xl">
-						Guru Kalaimani Devi & Antara Institute of Performing Arts along with
+						Guru Smt. Vimmi B. Eswar and Ms. Chithra Rajan & Antara Institute of Performing Arts along with
 						Ashok and Mrs. Nayak cordially invite you and your family to the
 					</h4>
 					<h3 className="text-5xl mt-6 text-orange-600 mb-6 font-f3">
@@ -66,7 +66,7 @@ function Invitation({
 			</div>
             <div className="flex gap-4 items-center justify-center">
 						<a
-							href={"http://stackoverflow.com"}
+							href={"https://event.fydo.in/arpitas-bharatnatyam-arangetram/"}
 							className="flex justify-between  items-center mt-10 text-white "
 							download={true}
 							target="_blank"
@@ -79,7 +79,7 @@ function Invitation({
 							</div>
 						</a>
 						<a
-							href={"http://stackoverflow.com"}
+							href={"https://maps.app.goo.gl/rkM4CaUUSPXyc4F46"}
 							className="flex justify-between  items-center mt-10 text-white"
 							download={true}
 							target="_blank"
@@ -91,7 +91,7 @@ function Invitation({
 								<FaLocationDot className="text-2xl" />
 							</div>
 						</a>
-						<a
+						{/* <a
 							href={"http://stackoverflow.com"}
 							className="flex justify-between  items-center mt-10 text-white"
 							download={true}
@@ -103,10 +103,10 @@ function Invitation({
 								<span className="font-medium text-xl">Donate</span>{" "}
 								<FcDonate className="text-2xl" />
 							</div>
-						</a>
+						</a> */}
 						<a
 							href={"http://stackoverflow.com"}
-							className="flex justify-between  items-center mt-10 text-white"
+							className="flex justify-between  items-center mt-10 text-white pointer-events-none"
 							download={true}
 							target="_blank"
 							rel="noreferrer"
