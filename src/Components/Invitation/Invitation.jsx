@@ -24,14 +24,14 @@ function Invitation({
 			<div className="flex gap-10 mt-10 justify-center items-center ">
 				<div className="flex-co justify-center w-[50%] ">
 					<VideoPlayer />
-                    <h4 className="text-4xl font-f3 mt-6">Your Presence is our present. Please, no gifts! If you feel so inclined, please donate to the following charity. We will be more happy.</h4>
+                    <h4 className="text-4xl font-f3 mt-6">Your Presence is our present. Please, no gifts! If you feel so inclined, please donate to the needy ones. We will be more happy.</h4>
                     
 				</div>
 
 				<div className="w-[60%] font-f1">
 					<h4 className="text-3xl">
 						Guru Smt. Vimmi B. Eswar and Ms. Chithra Rajan & Antara Institute of Performing Arts along with
-						Ashok and Mrs. Nayak cordially invite you and your family to the
+						Mr. Ashok Nayak and Mrs. Sasmita Nayak cordially invite you and your family to the
 					</h4>
 					<h3 className="text-5xl mt-6 text-orange-600 mb-6 font-f3">
 						Bharatnatyam Arangetram of <br />
@@ -46,12 +46,12 @@ function Invitation({
 					<h4 className="text-2xl">
 						Time:{" "}
 						<span className="text-amber-200 text-2xl">
-							10:00 AM to 04:00 PM IST
+							05:00 PM to 08:00 PM IST
 						</span>
 					</h4>
 					<h4 className="text-2xl">
 						Entry:{" "}
-						<span className="text-amber-200 text-2xl">9:30 AM Onwards</span>
+						<span className="text-amber-200 text-2xl">4:30 AM Onwards</span>
 					</h4>
 					<h4 className="text-2xl">
 						Venue:{" "}
