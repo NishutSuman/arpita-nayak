@@ -31,7 +31,7 @@ function Invitation({
 
 				<div className="sm:w-[60%] w-full font-f1">
 					<h4 className="sm:text-3xl text-2xl">
-						Guru Smt. Vimmi B. Eswar and Ms. Chithra Rajan & Antara Institute of Performing Arts along with
+						Guru Smt. Vimmi B. Eswar and Ms. Chithra Rajan & Antara Institute of Performing Arts along with
 						Mr. Ashok Nayak and Mrs. Sasmita Nayak cordially invite you and your family to the
 					</h4>
 					<h3 className="sm:text-5xl text-4xl mt-6 text-orange-600 mb-6 font-f3">
@@ -39,18 +39,17 @@ function Invitation({
 						Arpita Nayak
 					</h3>
 					<h4 className="sm:text-2xl text-xl">
-						Date:{" "}
 						<span className="text-amber-200 sm:text-2xl">
-							Saturday, 23rd December, 2023
+							on Saturday 23rd December, 2023
 						</span>
 					</h4>
 					<h4 className="sm:text-2xl text-xl">
-						Time:{" "}
+						
 						<span className="text-amber-200 sm:text-2xl">
-							05:00 PM to 08:00 PM IST
+							from 05:00 PM to 08:00 PM IST
 						</span>
 					</h4>
-					<h4 className="sm:text-2xl text-xl">
+					<h4 className="sm:text-2xl text-xl mt-2">
 						Entry:{" "}
 						<span className="text-amber-200 sm:text-2xl">4:30 PM Onwards</span>
 					</h4>
@@ -80,6 +79,19 @@ function Invitation({
 							</div>
 						</a>
 						<a
+							href={"http://stackoverflow.com"}
+							className="flex justify-between  items-center sm:mt-10 text-white pointer-events-none"
+							download={true}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="group text-white hover:text-yellow-200 w-fit px-6 py-3 my-2 flex items-center gap-2 rounded-md bg-gradient-to-b from-orange-600 to-orange-700 cursor-pointer">
+								{" "}
+								<span className="font-medium text-xl">Watch Live</span>{" "}
+								<MdLiveTv className="text-2xl" />
+							</div>
+						</a>
+						<a
 							href={"https://maps.app.goo.gl/rkM4CaUUSPXyc4F46"}
 							className="flex justify-between items-center sm:mt-10 text-white"
 							download={true}
@@ -105,19 +117,7 @@ function Invitation({
 								<FcDonate className="text-2xl" />
 							</div>
 						</a> */}
-						<a
-							href={"http://stackoverflow.com"}
-							className="flex justify-between  items-center sm:mt-10 text-white pointer-events-none"
-							download={true}
-							target="_blank"
-							rel="noreferrer"
-						>
-							<div className="group text-white hover:text-yellow-200 w-fit px-6 py-3 my-2 flex items-center gap-2 rounded-md bg-gradient-to-b from-orange-600 to-orange-700 cursor-pointer">
-								{" "}
-								<span className="font-medium text-xl">Watch Live</span>{" "}
-								<MdLiveTv className="text-2xl" />
-							</div>
-						</a>
+						
 					</div>
 		</div>
 	);

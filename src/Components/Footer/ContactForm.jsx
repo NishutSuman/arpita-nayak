@@ -12,9 +12,9 @@ const Contact = () => {
 		<div
 			style={{ backgroundColor: "#202235" }}
 			name="contact"
-			className="contact h-screen text-white sm:w-[40rem] mt-12"
+			className="contact text-white sm:w-[40rem] mt-1"
 		>
-			<div className="flex flex-col justify-center sm:mx-auto p-6 h-full">
+			<div className="flex flex-col justify-start sm:mx-auto">
 				<p className="py-6 text-neutral-400 font-medium">
 					Submit the form below to get in touch with us
 				</p>

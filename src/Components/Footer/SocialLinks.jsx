@@ -8,13 +8,13 @@ import { Link } from "react-scroll";
 const SocialLinks = () => {
 	return (
 		<div>
-			<div className="flex flex-col pt:20  font-bold justify-center items-center sm:gap-20 gap-10 sm:w-[40rem]">
+			<div className="flex flex-col pt-10  font-bold justify-center items-center sm:gap-20 gap-10 sm:w-[40rem]">
 				{/* Collaboration */}
-				<div className="flex flex-col justify-center items-center">
+				{/* <div className="flex flex-col justify-center items-center">
 					<h3>In collaboration with</h3>
 					<img src={Antara} alt="Antara" className="h-20 w-30" />
 					<h3>Antara Institute Of Performing Arts, Dubai</h3>
-				</div>
+				</div> */}
 				<div className="sm:flex-row flex flex-col justify-around gap-5">
 					<div className="flex flex-col gap-2 justify-center items-center">
 						<div className="border-2 rounded-full w-12 flex justify-center items-center border-hidden text-black bg-orange-600 h-12">
@@ -35,7 +35,7 @@ const SocialLinks = () => {
 							{" "}
 							<a
 								className=""
-								href="tel:6370274692"
+								href="tel:+91 6370274692"
 								target="_blank"
 								rel="noreferrer"
 							>

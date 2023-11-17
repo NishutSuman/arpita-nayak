@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import profilePic from "../../Assets/Arpita Profile pic.png"
 // import resume from "../assets/resume.pdf"
 
 const NavMenu = () => {
@@ -40,7 +41,7 @@ const NavMenu = () => {
 			className="flex justify-between items-center w-full h-20 px-4 text-white font-bold fixed to-orange-600 shadow-md shadow-cyan-500/50">
 			<div className="flex gap-2 items-center">
 				<img
-					src="https://i.postimg.cc/d1t5vwNY/Arpita-DP-small.jpg"
+					src={profilePic}
 					alt="profile_image"
 					className="w-12 rounded-full"
 				/>
