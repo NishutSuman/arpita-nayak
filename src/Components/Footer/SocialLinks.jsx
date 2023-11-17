@@ -8,14 +8,14 @@ import { Link } from "react-scroll";
 const SocialLinks = () => {
 	return (
 		<div>
-			<div className="flex flex-col font-bold justify-center items-center gap-20 w-[40rem]">
+			<div className="flex flex-col pt:20  font-bold justify-center items-center sm:gap-20 gap-10 sm:w-[40rem]">
 				{/* Collaboration */}
 				<div className="flex flex-col justify-center items-center">
 					<h3>In collaboration with</h3>
 					<img src={Antara} alt="Antara" className="h-20 w-30" />
 					<h3>Antara Institute Of Performing Arts, Dubai</h3>
 				</div>
-				<div className="flex justify-around gap-5">
+				<div className="sm:flex-row flex flex-col justify-around gap-5">
 					<div className="flex flex-col gap-2 justify-center items-center">
 						<div className="border-2 rounded-full w-12 flex justify-center items-center border-hidden text-black bg-orange-600 h-12">
 							{" "}
@@ -60,8 +60,8 @@ const SocialLinks = () => {
 					</div>
 				</div>
 				<div>
-					<h3 className="font-f1 text-gray-300">©️ 2023, All the rights are reserved with Mr. Ashok Nayak</h3>
-					<h4 className="font-f1 text-gray-300">Made with ❤️ by Dev. <a href="www.linkedin.com/in/nishutsuman" rel="noreferrer" target="_blank">Nishut Suman</a></h4>
+					<h3 className="font-f1 sm:text-xl text-xs text-gray-300">©️ 2023, All the rights are reserved with Mr. Ashok Nayak</h3>
+					<h4 className="font-f1 sm:text-xl text-gray-300 text-xs my-2">Designed and Developed with ❤️ by Dev. <a href="www.linkedin.com/in/nishutsuman" rel="noreferrer" target="_blank">Nishut Suman</a></h4>
 				</div>
 			</div>
 		</div>

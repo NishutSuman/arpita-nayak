@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 // import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
 
@@ -20,27 +19,28 @@ function Intro({
 		return () => clearInterval(slideInterval);
 	});
 	return (
-		<div className="mt-24">
-			<h2 className="font-f2 text-orange-600 text-4xl font-bold">
+		<div className="sm:mt-24 mt-12 introduction" name="introduction">
+			<h2 className="font-f2 text-orange-600 sm:text-4xl text-2xl font-bold">
 				—•— INTRODUCTION —•—
 			</h2>
 
-			<div className="flex gap-10 mt-10 justify-center">
-				<div className="w-[60%] font-f1">
+			<div className="sm:flex-row flex flex-col-reverse gap-10 mt-10 justify-center w-full">
+				<div className="sm:w-[60%] font-f1 px-2">
 					<h4>
-						<span className="text-2xl text-orange-600">Arpita,</span> a fervent and enthusiastic learner from Bhubaneswar, Odisha,
-						India, has been dedicated to the classical art of Bharatnatyam for
-						the past eight years. Her journey in this art form began at the age
-						of 9 under the guidance of Smt. Subadhra Sudarshan in Atlanta. Over
-						the years, she actively participated in various temple events in
-						Atlanta and took part in numerous recitals, showcasing her passion
-						and dedication. In 2020, when Arpita relocated to Dubai, she
-						continued her Bharatanatyam training at Antara Institutions of
-						Performing Arts under the tutelage of Smt. Vimmi B. Eswar and Ms.
-						Chithra Rajan. She also had the privilege of performing at
-						prestigious events organized by Antara Institutions, including Expo
-						2020 hosted by ISKCON Dubai and Prakurthi Dhwani 2022's "Loka
-						Nyasam," which is the annual flagship event of Antara Institutions.
+						<span className="sm:text-2xl text-orange-600">Arpita,</span> a
+						fervent and enthusiastic learner from Bhubaneswar, Odisha, India,
+						has been dedicated to the classical art of Bharatnatyam for the past
+						eight years. Her journey in this art form began at the age of 9
+						under the guidance of Smt. Subadhra Sudarshan in Atlanta. Over the
+						years, she actively participated in various temple events in Atlanta
+						and took part in numerous recitals, showcasing her passion and
+						dedication. In 2020, when Arpita relocated to Dubai, she continued
+						her Bharatanatyam training at Antara Institutions of Performing Arts
+						under the tutelage of Smt. Vimmi B. Eswar and Ms. Chithra Rajan. She
+						also had the privilege of performing at prestigious events organized
+						by Antara Institutions, including Expo 2020 hosted by ISKCON Dubai
+						and Prakurthi Dhwani 2022's "Loka Nyasam," which is the annual
+						flagship event of Antara Institutions.
 						<br />
 						<br />
 						Simultaneously, Arpita remained actively engaged in various
@@ -73,7 +73,7 @@ function Intro({
 					</h4>
 				</div>
 				{/* Carousel */}
-				<div className="overflow-hidden relative w-[30%] mt-[-5%]">
+				<div className="overflow-hidden relative sm:w-[30%] mt-[-5%]">
 					<div
 						className="flex transition-transform ease-out duration-500 "
 						style={{ transform: `translateX(-${curr * 100}%)` }}

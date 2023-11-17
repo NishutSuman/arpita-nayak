@@ -12,11 +12,11 @@ const Contact = () => {
 		<div
 			style={{ backgroundColor: "#202235" }}
 			name="contact"
-			className="contact h-screen text-white w-[40rem]"
+			className="contact h-screen text-white sm:w-[40rem] mt-12"
 		>
-			<div className="flex flex-col justify-center mx-auto h-full">
+			<div className="flex flex-col justify-center sm:mx-auto p-6 h-full">
 				<p className="py-6 text-neutral-400 font-medium">
-					Submit the form below to get in touch with me
+					Submit the form below to get in touch with us
 				</p>
 
 				<div className="flex justify-center items-center">

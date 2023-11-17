@@ -14,11 +14,11 @@ const NavMenu = () => {
 		},
 		{
 			id: 2,
-			link: "invitation",
+			link: "introduction",
 		},
 		{
 			id: 3,
-			link: "RSVP",
+			link: "invitation",
 		},
 		{
 			id: 4,
@@ -45,7 +45,7 @@ const NavMenu = () => {
 					className="w-12 rounded-full"
 				/>
 
-				<h1 className="text-2xl  shadow-black font-style: italic ml-2">
+				<h1 className="sm:text-2xl  shadow-black font-style: italic ml-2">
 					<a
 						className="cursor-pointer link-underline link-underline-black"
 						target="_blank"
@@ -63,7 +63,7 @@ const NavMenu = () => {
 						key={id}
 						className="nav-links px-4 cursor-pointer capitalize font-bold text-xl text-black-500 hover:scale-105 hover:text-orange-600 duration-200 "
 					>
-						<Link to={link} offset={-100} smooth duration={500}>
+						<Link to={link} spy={true} smooth={true} offset={-100} duration={500}>
 							{link}
 						</Link>
 					</li>
@@ -91,7 +91,7 @@ const NavMenu = () => {
 					{links.map(({ id, link }) => (
 						<li
 							key={id}
-							className="px-4 cursor-pointer capitalize py-6 text-4xl"
+							className="px-4 cursor-pointer capitalize py-2 text-2xl"
 						>
 							<Link
 								offset={-100}

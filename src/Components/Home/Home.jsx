@@ -10,17 +10,17 @@ const Home = () => (
 	<div
 		style={{ backgroundColor: "#202235" }}
 		name="home"
-		className="h-full w-full home "
+		className="h-full w-full home"
 	>
-		<div className="max-w-screen-lg mx-auto flex flex-col gap-28 items-center justify-between md:flex-row pt-20">
-			<div className="big-screen w-[40%] space-x-2 shadow-orange-600 mt-[-4%]">
+		<div className="max-w-screen-lg mx-auto flex flex-col sm:gap-28 items-center justify-between md:flex-row pt-20">
+			<div className="big-screen sm:w-[40%] space-x-2 shadow-orange-600 mt-[-4%] ml-5">
 				<img
 					src={"https://i.postimg.cc/yNx558WS/10.png"}
 					alt="profile"
-					className="mt-20 h-full w-full"
+					className="sm:mt-10 h-[100%] w-[100%]"
 				/>
 			</div>
-			<div className="small-screen hidden mt-8">
+			{/* <div className="small-screen hidden mt-4">
 				<div>
 					<img
 						src="https://i.postimg.cc/yNx558WS/10.png"
@@ -28,20 +28,20 @@ const Home = () => (
 						className="border-orange-600 w-74  rounded-full bg-fixed"
 					/>
 				</div>
-			</div>
-			<div className="flex flex-col justify-center w-[90%] items-center">
+			</div> */}
+			<div className="flex flex-col justify-center w-[90%] items-center sm:mt-10">
 				<div className="">
-					<h2 className="sm:text-5xl font-bold font-f2 text-white">
+					<h2 className="sm:text-5xl text-3xl font-bold font-f2 text-white">
 						You Are Invited To{" "}
-						<span className="font-f2 text-amber-400 ">
+						<span className="font-f2 text-amber-400 text-4xl">
 							Bharatnatyam Arangetram Of{" "}
-						</span>
+						</span><br/>
 						Arpita Nayak
 					</h2>
 					<h3 className="mt-1 text-3xl text-amber-200 font-f3">
 						Dicsiple of Smt. Vimmi B. Eswar and Ms. Chithra Rajan
 					</h3>
-					<h3 className="mt-5 text-2xl text-white font-f1">
+					<h3 className="mt-5 sm:text-2xl text-white font-f1">
 						23rd December, 2023 | Saturday<br></br>
 						at Rail Auditorium, Chandrasekharpur, Bhubaneswar
 					</h3>
@@ -75,7 +75,7 @@ const Home = () => (
 						<IoIosMail className="h-8 w-8 hover:text-yellow-200"/>
 					</a>
 				</div>
-				<div className="flex gap-4">
+				<div className="sm:flex-row sm:gap-4 items-center flex flex-col mb-4">
 					<a
 						href={"https://event.fydo.in/arpitas-bharatnatyam-arangetram/"}
 						className="flex justify-between  items-center mt-10 text-white "
@@ -91,7 +91,7 @@ const Home = () => (
 					</a>
 					<a
 						href={"http://stackoverflow.com"}
-						className="flex justify-between  items-center mt-10 text-white pointer-events-none"
+						className="flex justify-between items-center sm:mt-10 text-white pointer-events-none mt-[-4%]"
 						download={true}
 						target="_blank"
 						rel="noreferrer"
