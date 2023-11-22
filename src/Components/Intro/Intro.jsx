@@ -26,7 +26,7 @@ function Intro({
 			</h2>
 
 			<div className="sm:flex-row flex flex-col-reverse gap-10 mt-10 justify-center w-full">
-				<div className="sm:w-[60%] font-f1 px-2">
+				<div className="sm:w-[60%] text-l font-f1 px-2">
 					<h4>
 						<span className="sm:text-2xl text-2xl text-orange-600">Arpita,</span> a
 						fervent and enthusiastic learner from Bhubaneswar, Odisha, India,
@@ -83,7 +83,7 @@ function Intro({
 				{/* Carousel */}
 				<div className="overflow-hidden relative sm:w-[30%]">
 					<div
-						className="flex transition-transform ease-out duration-500 "
+						className="flex transition-transform ease-out duration-500 h-30"
 						style={{ transform: `translateX(-${curr * 100}%)` }}
 					>
 						{slides}

@@ -16,16 +16,16 @@ const Home = () => (
 		className="h-full w-full home relative z-0 homebody"
 	>
 		<div className="max-w-screen-lg mx-auto flex flex-col sm:gap-28 items-center justify-between md:flex-row pt-20 ">
-			<div className="big-screen sm:w-[40%] space-x-2 shadow-orange-600 mt-[-4%] ml-5">
+			<div className="big-screen sm:w-[47%] space-x-2 shadow-orange-600 mt-[-4%] ml-5">
 				<img
 					src={"https://i.postimg.cc/3w01m4d9/6.png"}
 					alt="profile"
-					className=" h-[100%] w-[100%] mt-[20rem] sm:mt-[15rem] sm:ml-[3rem]"
+					className=" h-[100%] w-[100%] mt-[20rem] sm:mt-[15rem] sm:ml-[2.5rem]"
 				/>
 				<img
 					src={"https://i.postimg.cc/DZW9WwTK/1.png"}
 					alt="profile"
-					className="sm:mt-10 h-[40%] w-[70%] absolute z-[-1] top-[10rem] left-8 sm:h-[60%] sm:top-16 sm:w-[20%] sm:left-44"
+					className="sm:mt-10 h-[40%] w-[70%] absolute z-[-1] top-[10rem] left-8 sm:h-[65%] sm:top-14 sm:w-[20%] sm:left-40"
 				/>
 				<img
 					src={Bg2}

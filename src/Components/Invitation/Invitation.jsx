@@ -26,7 +26,7 @@ function Invitation({
 			<div className=" flex sm:flex-row flex-col-reverse gap-10 mt-10 justify-center items-center ">
 				<div className="flex-co justify-center w-[100%] md:w-[50%] p-2">
 					<VideoPlayer />
-                    <h4 className="sm:text-4xl text-3xl font-f3 mt-6">Your Presence is our present. Please, no gifts! If you feel so inclined, please donate to the needy ones. We will be more happy.</h4>
+                    <h4 className="sm:text-4xl text-3xl font-f3 mt-6">Your Presence is our present.<br/> Love and Blessings are the best gifts.</h4>
                     
 				</div>
 
