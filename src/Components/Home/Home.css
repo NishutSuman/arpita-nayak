@@ -1,0 +1,18 @@
+.homebody {
+	background: rgb(4, 3, 97);
+	background: linear-gradient(
+		180deg,
+		rgba(4, 3, 97, 0.8044467787114846) 25%,
+		rgba(253, 29, 29, 0.8044467787114846) 77%,
+		rgba(252, 176, 69, 1) 100%
+	);
+}
+.homebodyRev {
+	background: rgb(4, 3, 97);
+	background: linear-gradient(
+		0deg,
+		rgba(4, 3, 97, 0.8044467787114846) 0%,
+		rgba(253, 29, 29, 0.8044467787114846) 67%,
+		rgba(252, 176, 69, 1) 100%
+	);
+}

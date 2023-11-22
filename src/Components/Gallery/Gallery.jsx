@@ -9,9 +9,9 @@ function Gallery({
 	const [curr, setCurr] = useState(0);
 
 	const prev = () =>
-		setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
+		setCurr((curr) => (curr === 3 ? slides.length - 0 : curr - 1));
 	const next = () =>
-		setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
+		setCurr((curr) => (curr === slides.length - 3 ? 0 : curr + 1));
 
 	useEffect(() => {
 		if (!autoSlide) return;
@@ -23,9 +23,9 @@ function Gallery({
             <h2 className="font-f2 text-orange-600 sm:text-4xl text-2xl font-bold pb-10">
 				—•— GALLERY —•—
 			</h2>
-			<div className="overflow-hidden relative sm:w-[90%] mt-[2%] mx-auto">
+			<div className="overflow-hidden relative sm:w-[90%] mt-[2%] mx-auto  h-[30rem]">
 				<div
-					className="flex transition-transform ease-out duration-50 sm:translate-x-[-100%] sm:w-[30%]"
+					className="flex transition-transform ease-out duration-50 sm:translate-x-[-100%] sm:w-full w-full items-center sm:h-[100%] sm:gap-10"
 					style={{ transform: `translateX(-${curr * 100}%)` }}
 				>
 					{slides}
@@ -45,7 +45,7 @@ function Gallery({
 					</button>
 				</div>
 
-				<div className="absolute bottom-4 right-0 left-0">
+				{/* <div className="absolute bottom-4 right-0 left-0">
 					<div className="flex items-center justify-center gap-2">
 						{slides.map((_, i) => (
 							<div
@@ -53,7 +53,7 @@ function Gallery({
 							/>
 						))}
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

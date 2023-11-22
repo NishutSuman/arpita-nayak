@@ -4,15 +4,16 @@ import { IoMdCall, IoIosMail } from "react-icons/io";
 import { MdLiveTv } from "react-icons/md";
 import Bg2 from "../../Assets/bg2.png";
 import temple1 from "../../Assets/temple1-1.png";
-
+import "./Home.css"
 // import { Link } from "react-scroll";
 import shape from "../../Assets/shape-bg.png";
 
 const Home = () => (
 	<div
-		style={{ backgroundColor: "#202235" }}
+		// style={{  backgroundColor:"linear-gradient:90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%" }}
+		// className="homeBody"
 		name="home"
-		className="h-full w-full home relative z-0"
+		className="h-full w-full home relative z-0 homebody"
 	>
 		<div className="max-w-screen-lg mx-auto flex flex-col sm:gap-28 items-center justify-between md:flex-row pt-20 ">
 			<div className="big-screen sm:w-[40%] space-x-2 shadow-orange-600 mt-[-4%] ml-5">
@@ -47,11 +48,11 @@ const Home = () => (
 					/>
 				</div>
 			</div> */}
-			<div className="flex flex-col justify-center w-[90%] items-center sm:mt-10 mt-10">
+			<div className="flex flex-col justify-center w-[90%] items-center sm:mt-10 mt-20">
 				<div className="">
 					<h2 className="sm:text-5xl text-3xl font-bold font-f2 text-white">
 						You Are Invited To{" "}
-						<span className="font-f2 text-amber-400 text-4xl">
+						<span className="font-f2 text-[#f7f446] text-4xl">
 							Bharatnatyam Arangetram Of{" "}
 						</span>
 						<br />
@@ -62,7 +63,7 @@ const Home = () => (
 					</h3> */}
 					<h3 className="mt-5 sm:text-2xl text-amber-200 font-f1">
 						23rd December, 2023 | Saturday<br></br>
-						at Rail Auditorium, Chandrasekharpur, Bhubaneswar, Odisha
+						at Rail Auditorium, Chandrasekharpur<br/>Bhubaneswar, Odisha
 					</h3>
 				</div>
 				<div className="flex gap-4">
@@ -124,7 +125,7 @@ const Home = () => (
 				</div>
 			</div>
 		</div>
-		<div style={{ backgroundColor: "#202235", marginTop: "-1%" }}>
+		<div style={{  marginTop: "-1%" }}>
 			<img
 				src={shape}
 				alt="shape-img"

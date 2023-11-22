@@ -19,7 +19,8 @@ function Intro({
 		return () => clearInterval(slideInterval);
 	});
 	return (
-		<div className="sm:mt-24 mt-12 introduction" name="introduction">
+		<div className="sm:mt-20 mt-12 introduction"
+		 name="introduction">
 			<h2 className="font-f2 text-orange-600 sm:text-4xl text-2xl font-bold">
 				—•— INTRODUCTION —•—
 			</h2>
@@ -27,15 +28,22 @@ function Intro({
 			<div className="sm:flex-row flex flex-col-reverse gap-10 mt-10 justify-center w-full">
 				<div className="sm:w-[60%] font-f1 px-2">
 					<h4>
-						<span className="sm:text-2xl text-orange-600">Arpita,</span> a
+						<span className="sm:text-2xl text-2xl text-orange-600">Arpita,</span> a
 						fervent and enthusiastic learner from Bhubaneswar, Odisha, India,
 						has been dedicated to the classical art of Bharatnatyam for the past
 						eight years. Her journey in this art form began at the age of 9
 						under the guidance of Smt. Subadhra Sudarshan in Atlanta. Over the
 						years, she actively participated in various temple events in Atlanta
 						and took part in numerous recitals, showcasing her passion and
-						dedication. In 2020, when Arpita relocated to Dubai, she continued
-						her Bharatanatyam training at Antara Institutions of Performing Arts
+						dedication. Some include performances at IACA, Hindu Temple,
+						Atlanta, USA and Siva Mandir of Atlanta, USA. She has also performed
+						in a kuchipudi ballet(Navadurga), with renowned kuchipudi artist
+						Haleem Khan(is an Indian Kuchipudi dancer, performer and movie
+						actor).
+						<br />
+						<br />
+						In 2020, when Arpita relocated to Dubai, she continued her
+						Bharatanatyam training at Antara Institutions of Performing Arts
 						under the tutelage of Smt. Vimmi B. Eswar and Ms. Chithra Rajan. She
 						also had the privilege of performing at prestigious events organized
 						by Antara Institutions, including Expo 2020 hosted by ISKCON Dubai
@@ -54,7 +62,7 @@ function Intro({
 						<br />
 						Arpita's commitment extended beyond her academic and artistic
 						pursuits. She served as a Student Ambassador at her school, held the
-						position of President in the math honor society, and was an active
+						position of President in the math honorsociety, and was an active
 						member of the National Honor Society. Furthermore, she
 						enthusiastically participated in various school sports and
 						activities, such as Academic Games and Softball. Arpita also made a
@@ -73,7 +81,7 @@ function Intro({
 					</h4>
 				</div>
 				{/* Carousel */}
-				<div className="overflow-hidden relative sm:w-[30%] mt-[-5%]">
+				<div className="overflow-hidden relative sm:w-[30%]">
 					<div
 						className="flex transition-transform ease-out duration-500 "
 						style={{ transform: `translateX(-${curr * 100}%)` }}

@@ -4,6 +4,7 @@ import { IoTicket } from "react-icons/io5";
 // import { IoMdCall, IoIosMail } from "react-icons/io";
 import { MdLiveTv } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import "../Home/Home.css"
 // import { FcDonate } from "react-icons/fc";
 // import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
 
@@ -14,8 +15,8 @@ function Invitation({
 }) {
 	return (
 		<div
-			className="mt-14 text-white sm:p-10 invitation"
-			style={{ backgroundColor: "#202235" }}
+			className="mt-14 text-white sm:p-10 invitation homebodyRev"
+			// style={{ backgroundColor: "#202235" }}
 			name= "invitation"
 		>
 			<h2 className="font-f2 text-orange-600 sm:text-4xl text-2xl font-bold pt-6">
@@ -31,10 +32,10 @@ function Invitation({
 
 				<div className="sm:w-[60%] w-full font-f1">
 					<h4 className="sm:text-3xl text-2xl">
-						Guru Smt. Vimmi B. Eswar and Ms. Chithra Rajan & Antara Institute of Performing Arts along with
+						Guru Smt. Vimmi B. Eswar and Guru Ms. Chithra Rajan & Antara Institute of Performing Arts, Dubai along with
 						Mr. Ashok Nayak and Mrs. Sasmita Nayak cordially invite you and your family to the
 					</h4>
-					<h3 className="sm:text-5xl text-4xl mt-6 text-orange-600 mb-6 font-f3">
+					<h3 className="sm:text-5xl text-4xl mt-6 text-[#f7f446] mb-6 font-f3">
 						Bharatnatyam Arangetram of <br />
 						Arpita Nayak
 					</h3>
@@ -51,7 +52,7 @@ function Invitation({
 					</h4>
 					<h4 className="sm:text-2xl text-xl mt-2">
 						Entry:{" "}
-						<span className="text-amber-200 sm:text-2xl">4:30 PM Onwards</span>
+						<span className="text-amber-200 sm:text-2xl">4:00 PM Onwards</span>
 					</h4>
 					<h4 className="sm:text-2xl text-xl">
 						Venue:{" "}
