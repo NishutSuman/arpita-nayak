@@ -11,7 +11,7 @@ function Stats() {
                 </div>
                 <div className="sm:w-[20rem] flex flex-col border-4 border-[#202235] m-6 py-4 rounded-md items-center justify-center text-center">
                     <h2 className="font-bold text-2xl text-white bg-indigo-400 rounded-full w-[10rem] p-4">500+</h2>
-                    <h3 className="mt-4 font-bold text-xl text-orange-600">Loving Audience</h3>
+                    <h3 className="mt-4 font-bold text-xl text-orange-600">Lovely Audience</h3>
                 </div>
             </div>
 		</div>
