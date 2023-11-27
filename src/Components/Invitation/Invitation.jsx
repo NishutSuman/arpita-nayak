@@ -37,7 +37,7 @@ function Invitation({
 
 				<div className="sm:w-[60%] w-full font-f1">
 					<h4 className="sm:text-3xl text-2xl">
-						With the blessings of the Almighty & Gurus Antara Institute Of
+						With the blessings of the Almighty & Gurus; Antara Institute Of
 						Performing Arts Dubai along with Mrs. Sasmita Nayak, Mr.Ashok Nayak
 						and Nayak family cordially invite you and your family to the
 					</h4>

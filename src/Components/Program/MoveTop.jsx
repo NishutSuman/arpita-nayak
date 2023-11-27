@@ -30,7 +30,7 @@ function MoveTop() {
 	return (
 		<>
 			{isVisible && (
-				<div className="items-center text-white fixed bottom-[2%] right-0 mr-5 sm:hidden z-10">
+				<div className="items-center text-white fixed bottom-[7%] right-0 mr-5 sm:hidden z-10">
 					<button
 						onClick={handleScrollToTop}
 						className="group text-white hover:text-yellow-200 w-fit px-6 py-3 my-2 flex items-center gap-2 rounded-md bg-gradient-to-b from-blue-600 to-blue-700 cursor-pointer"
