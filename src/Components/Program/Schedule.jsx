@@ -39,7 +39,7 @@ function Schedule() {
 					<tr>
 						<td className="bg-lime-200 p-5 tshadow rounded-lg">
 							<h4 className="sm:text-xl font-bold">
-								Alaripu
+								Alarippu
 								<br />
 								
 								<span className="font-bold text-orange-600">Thalam:</span> Sankeernam
@@ -62,12 +62,12 @@ function Schedule() {
 								<br />
 								<span className="font-bold text-orange-600">Ragam:</span> Bhairavi
 								<br />
-								<span className="font-bold text-orange-600">Thalam:</span> Adi Thalam
+								<span className="font-bold text-orange-600">Thalam:</span> Rupaka
 							</h4>
 						</td>
                         <td className="bg-lime-200 p-5 tshadow rounded-lg">
 							<h4 className="sm:text-xl font-bold">
-								Chandana Charchitha - Astapadi
+								Chandana Charchitha - Ashtapadi
 								<br />
 								<span className="font-bold text-orange-600">Ragam:</span> Sumanesaranjani
 								<br />

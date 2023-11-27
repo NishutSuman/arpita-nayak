@@ -10,7 +10,6 @@ function MobilehomeBtn() {
 		<div>
 			<Link
 				to={"/"}
-				onClick={console.log("clicked")}
 				className="flex justify-between  items-center mt-10 text-white fixed bottom-[10%] right-0 mr-5 sm:hidden z-10"
 				rel="noreferrer"
 			>

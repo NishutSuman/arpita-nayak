@@ -53,7 +53,7 @@ const Home = () => (
 					<h2 className="sm:text-5xl text-3xl font-bold font-f2 text-white">
 						You Are Invited To{" "}
 						<span className="font-f2 text-[#f7f446] text-4xl">
-							Bharatnatyam Arangetram Of{" "}
+							Bharatanatyam Arangetram Of{" "}
 						</span>
 						<br />
 						Arpita Nayak
@@ -105,7 +105,7 @@ const Home = () => (
 					>
 						<div className="group text-white hover:text-yellow-200 w-fit px-6 py-3 my-2 flex items-center gap-2 rounded-md bg-gradient-to-b from-orange-600 to-orange-700 cursor-pointer">
 							{" "}
-							<span className="font-medium text-xl">Book Pass</span>{" "}
+							<span className="font-medium text-xl">Book Free Pass</span>{" "}
 							<IoTicket className="text-2xl" />
 						</div>
 					</a>
