@@ -7,6 +7,7 @@ import Schedule from "./Schedule";
 
 import MobilehomeBtn from "./MobilehomeBtn";
 import MoveTop from "./MoveTop";
+import Guest from "./Guests";
 
 
 let shisyaSlide = [
@@ -19,6 +20,7 @@ let guruSlide = [
 	"https://i.postimg.cc/hGRrjHqc/014.jpg",
 	"https://i.postimg.cc/yxYbvSnK/010.jpg",
 	"https://i.postimg.cc/d0rp1FDb/005.jpg",
+	"https://i.postimg.cc/bNqYtrVN/Subathra-Sudarshan.jpg",
 ];
 
 function Broucher() {
@@ -40,8 +42,10 @@ function Broucher() {
 					<img key={index} src={s} alt="pics" className="h-[100%] w-auto object-cover]" />
 				))}
 			</Guru>
+			<Guest/>
 			<Musician1 />
 			<Schedule />
+
 		</div>
 	);
 }

@@ -9,6 +9,8 @@ import Stats from "./Components/Stats/Stats";
 import Gallery from "./Components/Gallery/Gallery";
 import Broucher from "./Components/Program/Broucher";
 import MoveTop from "./Components/Program/MoveTop";
+import Popup from "./Components/PopUp/Popup";
+import { useState } from "react";
 
 let introSlide = [
 	"https://i.postimg.cc/WpZRTz8G/3.png",
@@ -31,6 +33,9 @@ let gallerySlide = [
 ];
 
 function App() {
+
+	
+
 	return (
 		<div className="App">
 			<NavMenu />
@@ -38,6 +43,7 @@ function App() {
 				<Routes>
 					<Route exact path="/" element={<Wrapper />} />
 					<Route path="/program-broucher" element={<Broucher />} />
+					
 				</Routes>
 
 
@@ -47,8 +53,13 @@ function App() {
 }
 
 const Wrapper = () => {
+
+	const [showMainContent, setShowMainContent] = useState(true);
+
 	return (
 		<div>
+		{showMainContent ? (
+			<div>
     <MoveTop/>
 			<Home />
 			<Intro autoSlide={true} autoSlideInterval={3000}>
@@ -73,6 +84,8 @@ const Wrapper = () => {
 					/>
 				))}
 			</Gallery>
+			</div>): null }
+			<Popup onClose={() => setShowMainContent(true)} />
 		</div>
 	);
 };
