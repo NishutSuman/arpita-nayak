@@ -68,9 +68,22 @@ function Guest() {
 							<h4 className="sm:text-xl font-bold">
                             
                                 
-                                Guru Sujata Mohapatra
+                                Vidushi Sujata Mohapatra
 								<br />
-								<span className="font-bold text-orange-600">Principal of 'Srjan' (Odissi Nrityabasa)</span>
+								<span className="font-bold text-orange-600">Director of Gurukeerti</span>
+								<br />
+								
+							</h4>
+						</td>
+                       
+                    <td className="bg-lime-200 p-5 tshadow rounded-lg">
+							<h4 className="sm:text-xl font-bold">
+                            
+                                
+                                Dr. Sangeeta Gosain
+								<br />
+								<span className="font-bold text-orange-600">Vocalist</span><br/>
+								<span className="font-bold text-orange-600">Retd. Professor, Utkal University of Culture & <br/>Director GKCM Odissi Research Center, Bhubaneswar</span>
 								<br />
 								
 							</h4>
