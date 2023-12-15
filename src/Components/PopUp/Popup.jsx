@@ -28,7 +28,7 @@ const Popup = ({ onClose }) => {
     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
       <div className="bg-lime-200 p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl mb-4 font-bold">Arpit's Arangetram</h2>
-        <p className="mb-4 font-bold">Please book your free passes for the event !</p>
+        <p className="mb-4 font-bold">Please book your free passes for the event</p>
         <div className="flex justify-between">
           <button
             onClick={handleBookPass}

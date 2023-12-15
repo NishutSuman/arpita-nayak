@@ -6,7 +6,7 @@ import { IoTicket } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaFilePdf, FaLocationArrow } from "react-icons/fa6";
 import "../Home/Home.css";
-import InvitationPDF from "../../Assets/Invitation.pdf";
+import InvitationPDF from "../../Assets/Invitation_compressed_final.pdf";
 import { Link } from "react-router-dom";
 // import { FcDonate } from "react-icons/fc";
 // import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";

@@ -58,6 +58,8 @@ function Guest() {
                             
                                 Padma Shri Guru Ileana Citaristi
 								<br />
+								<span className="font-bold text-orange-600">Secretary. Art Vision, Odisha</span>
+								<br />
 								<span className="font-bold text-orange-600">Odissi and Chhau dancer</span>
 								<br />
 							</h4>
