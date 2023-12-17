@@ -61,7 +61,7 @@ const SocialLinks = () => {
 				</div>
 				<div>
 					<h3 className="font-f1 sm:text-xl text-xs text-gray-300">©️ 2023, All the rights are reserved with Mr. Ashok Nayak</h3>
-					<h4 className="font-f1 sm:text-xl text-gray-300 text-xs my-2">Designed and Developed with ❤️ by <a href="www.linkedin.com/in/nishutsuman" rel="noreferrer" target="_blank">Shobha Bhanja & Nishut Suman</a></h4>
+					<h4 className="font-f1 sm:text-xl text-gray-300 text-xs my-2">Designed and Developed with ❤️ by <a href="www.linkedin.com/in/nishutsuman" rel="noreferrer" target="_blank">Nishut Suman</a></h4>
 				</div>
 			</div>
 		</div>
