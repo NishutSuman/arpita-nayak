@@ -98,7 +98,7 @@ const Home = () => (
 				<div className="sm:flex-row sm:gap-4 items-center flex flex-col mb-4">
 					<a
 						href={"https://event.fydo.in/arpitas-bharatnatyam-arangetram/"}
-						className="flex justify-between  items-center mt-10 text-white "
+						className="flex justify-between  items-center mt-10 text-white pointer-events-none"
 						download={true}
 						target="_blank"
 						rel="noreferrer"

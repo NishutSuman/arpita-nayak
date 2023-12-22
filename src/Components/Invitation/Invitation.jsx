@@ -71,7 +71,7 @@ function Invitation({
 			<div className="flex sm:flex-row flex-col sm:gap-4 items-center justify-center pb-10">
 				<a
 					href={"https://event.fydo.in/arpitas-bharatnatyam-arangetram/"}
-					className="flex justify-between items-center sm:mt-10 mt-10 text-white "
+					className="flex justify-between items-center sm:mt-10 mt-10 text-white pointer-events-none"
 					download={true}
 					target="_blank"
 					rel="noreferrer"
@@ -140,7 +140,7 @@ function Invitation({
 				</Link>
 				<a
 					href={InvitationPDF}
-					className="flex justify-between items-center sm:mt-10 text-white"
+					className="flex justify-between items-center sm:mt-10 text-white pointer-events-none"
 					download={true}
 					target="_blank"
 					rel="noreferrer"
