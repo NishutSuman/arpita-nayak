@@ -110,8 +110,8 @@ const Home = () => (
 						</div>
 					</a>
 					<a
-						href={"http://stackoverflow.com"}
-						className="flex justify-between items-center sm:mt-10 text-white pointer-events-none mt-[-4%]"
+						href={"https://youtube.com/live/c1ZLdiMN6ds?feature=shared"}
+						className="flex justify-between items-center sm:mt-10 text-white mt-[-4%]"
 						download={true}
 						target="_blank"
 						rel="noreferrer"
